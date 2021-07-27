@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animation_color"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:theme="@style/Theme.Tianzhu1"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="148dp"
+        android:layout_marginTop="50sp"
+        android:adjustViewBounds="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ss4">
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="50dp"
+        android:drawableLeft="@drawable/ic_acname"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColor="#ffffff"
+        android:textSize="20dp">
+
+    </EditText>
+    <EditText
+        android:id="@+id/user_email"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="3sp"
+        android:drawableLeft="@drawable/ic_email"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColor="#ffffff"
+        android:textSize="20dp">
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/user_password1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/ic_lock"
+        android:hint="New Password"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+
+        >
+
+    </EditText>
+    <EditText
+        android:id="@+id/user_password2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/ic_lock"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+
+        >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/mybutton"
+        android:text="SignUp"
+        app:backgroundTint="#7A9AFF">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Have Acount? Log In"
+        android:textSize="16dp">
+
+    </TextView>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="#000000"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/user_iv"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_launcher_foreground"
+        tools:ignore="ContentDescription">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_iv"
+        android:id="@+id/user_name"
+        android:text="name"
+        tools:ignore="HardcodedText"
+        android:textColor="@color/white">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_name"
+        android:text="samkingsly07@gmail.com"
+        android:id="@+id/user_email"
+        tools:ignore="HardcodedText"
+        android:textColor="@color/white">
+
+    </TextView>
+</LinearLayout>
